@@ -1,0 +1,73 @@
+*{
+    padding:1px;
+    margin:1px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+  body{
+    color:white;
+    background-color: black;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  .nav{
+    color:cyan;
+  }
+  .nav1{
+    color: red;
+  }
+  .nav2{
+    color: white;
+  }
+
+  .NoB{
+    color:cyan;
+    text-align: center;
+    display: center;
+
+  }
+  .Welcome{
+    text-align: center;
+    display: center;
+   
+  }
+  .mecpic{
+    width: max-content 300px;
+    width: min-content 50px;
+    height: max-content 300px;
+    height: min-content 50px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.534);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
