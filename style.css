@@ -4,6 +4,7 @@
     margin:1px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing:border-box;
+    scroll-behavior: smooth;
 }
 
   body{
@@ -43,8 +44,10 @@
 
   }
   .Welcome{
+    margin:5vh;
     text-align: center;
     display: center;
+    color:#a4a4a4;
    
   }
   .mecpic{
@@ -54,8 +57,9 @@
     height: min-content 50px;
   }
   .dropbtn {
-    background-color: red;
-    color: white;
+    background-color: cyan;
+    color: black;
+    font-weight: 700;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -73,9 +77,9 @@
     position: absolute;
     background-color: #a4a4a4;
     min-width: 160px;
-    box-shadow: 4px 6px 12px 0px rgba(255, 255, 255, 0.689);
     z-index: 1;
     border-radius: 12px;
+    font-weight: 600;
   }
   
   .dropdown-content a {
@@ -96,3 +100,69 @@
     box-shadow: 4px, 5px, 10px, 4px;
     transition: .6s;
   }
+.image{
+  width: 350px;
+  border-radius: 20px;
+  border: solid 1px;
+  color:cyan;
+
+
+}
+.square
+  {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+.h3prices{
+  margin: 1vh;
+  color: #a4a4a4;
+  font-size: x-large;
+  float: right;
+  margin-right: 33px;
+
+}
+.h3w{
+  color: #a4a4a4;
+  position: relative;
+}
+.business{
+  text-align: center;
+  
+
+}
+.Order{
+  color: #41a044;
+  font-size: x-large;
+  margin-top: -20px;
+}
+.li{
+  color: cyan;
+ font-size: x-large;
+}
+.aside{
+  margin-right: 33px;
+  padding: 20px;
+  clear: both;
+  float: right;
+
+  margin-bottom: 30px;
+  color:#ffffff;
+}
+.package{
+color: #41a044;
+font-weight: 700;
+}
+.h2order{
+position: relative;
+padding: 30px;
+color:#a4a4a4;
+}
