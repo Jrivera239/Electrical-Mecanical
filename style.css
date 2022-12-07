@@ -44,7 +44,7 @@
 
   }
   .Welcome{
-    margin:5vh;
+    margin:9vh;
     text-align: center;
     display: center;
     color:#a4a4a4;
@@ -101,41 +101,35 @@
     transition: .6s;
   }
 .image{
-  width: 350px;
+  width: 400px;
+  height:auto;
   border-radius: 20px;
   border: solid 1px;
   color:cyan;
+  margin: auto;
+  margin: 20px;
 
 
 }
-.square
-  {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    animation: mymove 5s infinite;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-  }
+
 .h3prices{
   margin: 1vh;
-  color: #a4a4a4;
+  color: #c7c5c5;
   font-size: x-large;
   float: right;
   margin-right: 33px;
 
 }
 .h3w{
-  color: #a4a4a4;
-  position: relative;
+  color: black;
+ text-align: center;
+font-size: 25px;
+padding: 10px;
+
 }
 .business{
   text-align: center;
+  font-weight: 600;
   
 
 }
@@ -164,5 +158,31 @@ font-weight: 700;
 .h2order{
 position: relative;
 padding: 30px;
-color:#a4a4a4;
+color:#c9c3c3;
+
+}
+.wwd{
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  justify-content: flex;
+  margin:auto;
+  background:linear-gradient(rgb(118, 132, 151), rgb(33, 74, 77));
+  opacity: 100%;
+  color: black;
+  width: 700px;
+}
+.wid{
+  font-size: x-large;
+  color:#000000;
+  flex-wrap: wrap;
+  cursor: pointer;
+  font-weight: 700;
+}
+.wid1{
+  background:linear-gradient(rgb(5, 5, 5), rgb(118, 132, 151));
+ max-width:700px;
+ margin: auto;
+ border-radius: 30px;
+background-color:gra rgb(9, 12, 11);
 }
