@@ -113,11 +113,13 @@
 }
 
 .h3prices{
-  margin: 1vh;
-  color: #c7c5c5;
+  color:#d9ff00;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
   font-size: x-large;
-  float: right;
-  margin-right: 33px;
+
+
 
 }
 .h3w{
@@ -133,34 +135,63 @@ padding: 10px;
   
 
 }
-.Order{
-  color: #41a044;
-  font-size: x-large;
-  margin-top: -20px;
-}
 .li{
   color: cyan;
  font-size: x-large;
+ cursor: pointer;
+
 }
-.aside{
-  margin-right: 33px;
-  padding: 20px;
+.Square{
+display:grid;
+  color: red;
+  background:linear-gradient( rgb(1, 48, 1),rgb(2, 110, 110));
+  border-radius: 30px;
+  width: 700px;
+  margin: auto;
+}
+.aside1{
+  margin: auto;
+  padding: 30px;
   clear: both;
   float: right;
-
-  margin-bottom: 30px;
+  background:linear-gradient(rgb(53, 52, 52), rgb(33, 74, 77));
+  margin-bottom: 20px;
   color:#ffffff;
+  border-radius:  10px;
+}
+.aside2{
+  margin: auto;
+  padding: 30px;
+  clear: both;
+  float: left;
+  background:linear-gradient(rgb(53, 52, 52), rgb(33, 74, 77));
+  margin-bottom: 20px;
+  color:#ffffff;
+  border-radius:  10px;
+}
+.aside3{
+  margin: auto;
+  padding: 30px;
+  clear: both;
+  float: left;
+  background:linear-gradient(rgb(53, 52, 52), rgb(33, 74, 77));
+  margin-bottom: 20px;
+  color:#ffffff;
+  border-radius:  10px;
 }
 .package{
-color: #41a044;
+color: #28cf2d;
 font-weight: 700;
 }
 .h2order{
-position: relative;
+margin: auto;
 padding: 30px;
-color:#c9c3c3;
-
+color:#d9ff00;
 }
+
+
+
+
 .wwd{
   margin-top: 20px;
   border-radius: 20px;
