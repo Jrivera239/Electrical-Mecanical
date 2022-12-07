@@ -136,11 +136,11 @@ padding: 10px;
 }
 .Square{
 display:grid;
-  color: red;
   background:linear-gradient( rgb(1, 48, 1),rgb(2, 110, 110));
   border-radius: 30px;
   width: 700px;
   margin: auto;
+  border: solid black 15px
 }
 .aside1{
   margin: auto;
@@ -151,6 +151,7 @@ display:grid;
   margin-bottom: 20px;
   color:#ffffff;
   border-radius:  10px;
+  border: solid #d9ff00 2px
 }
 .aside2{
   margin: auto;
@@ -161,6 +162,7 @@ display:grid;
   margin-bottom: 20px;
   color:#ffffff;
   border-radius:  10px;
+  border: solid #d9ff00 2px
 }
 .aside3{
   margin: auto;
@@ -171,6 +173,7 @@ display:grid;
   margin-bottom: 20px;
   color:#ffffff;
   border-radius:  10px;
+  border: solid #d9ff00 2px
 }
 .package{
 color: #28cf2d;
@@ -184,13 +187,14 @@ color:#d9ff00;
 
 .wwd{
 
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 20px;
   margin:auto;
   background:linear-gradient(rgb(118, 132, 151), rgb(33, 74, 77));
   opacity: 100%;
   color: black;
   width: 700px;
+  border: solid black 15px
 }
 .wid{
   font-size: x-large;
@@ -205,4 +209,5 @@ background:linear-gradient(rgb(15, 15, 15) , rgb(118, 132, 151));
  margin: auto;
  border-radius: 30px;
 background-color:gra rgb(9, 12, 11);
+border: solid black 15px
 }
